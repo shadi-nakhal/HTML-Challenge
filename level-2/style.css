@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(234, 244, 211);
+    width: 95%;
+    font-family: raleway,sans-serif;
+    border: 1px solid transparent;
+    border-radius: 50px;
+
+}
+
+.page-header {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.nav-bar {
+
+    margin-bottom: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 60px;
+    border: 2px solid transparent ;
+    border-radius: 50px;
+    background-color: rgb(219, 216, 174);
+
+}
+
+.nav-bar > a {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-size: larger;
+    background-color: rgb(219, 216, 174);
+    text-decoration: none;
+    padding: 10px;
+    opacity: 0.6;
+    color: black;
+}
+
+.nav-bar > a:hover {
+    opacity: 1;
+    text-shadow: 2px 2px 10px rgb(252, 244, 131);;
+}
+
+.page-topic {
+
+    text-align: center;
+    margin-bottom: 90px;
+
+}
+
+
+.img-css {
+    width:40%;
+    align-self: center;
+}
+
+.list {
+    margin-left: 60px;
+    font-size: larger;
+}
+
+#red-heart {
+    color:red
+}
